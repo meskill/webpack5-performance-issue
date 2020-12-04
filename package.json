@@ -1,0 +1,37 @@
+{
+    "name": "snapshot",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://Yog9.github.io/SnapShot",
+    "dependencies": {
+        "@babel/core": "^7.12.9",
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "@babel/preset-env": "^7.12.7",
+        "@babel/preset-react": "^7.12.7",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "axios": "^0.19.2",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "css-loader": "^5.0.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.1.2",
+        "style-loader": "^2.0.0",
+        "terser-webpack-plugin": "^5.0.3",
+        "webpack": "^5.9.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
