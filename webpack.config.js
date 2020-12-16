@@ -50,7 +50,12 @@ module.exports = {
     new MiniCssExtractPlugin({ filename:'styles.[chunkhash].css' })
   ],
 
+  output: {
+    pathinfo: false,
+  },
+
   module: {
+    unsafeCache: true,
     rules: [{
       test: /\.(js|jsx)$/,
       loader: 'babel-loader',
