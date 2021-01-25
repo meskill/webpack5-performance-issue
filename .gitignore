@@ -1,3 +1,6 @@
+.vscode
+.history
+
 webpack*/node_modules
 /node_modules
 dist/
